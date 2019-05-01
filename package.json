@@ -1,0 +1,30 @@
+{
+  "name": "react-stripe-connect-form",
+  "version": "0.0.1",
+  "description": "A React component to render a form that collects Stripe Connect information.",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "babel lib -d build --ignore '**/*.test.js'",
+    "prepublish": "npm run build",
+    "build:demo": "babel lib -d build --ignore '**/*.test.js' && sudo npm link"
+  },
+  "author": "Mostapha Rammo",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "polished": "^1.8.2",
+    "react-dom": "^16.0.0",
+    "styled-components": "^2.2.3"
+  },
+  "dependencies": {
+    "babel-preset-react": "^6.24.1",
+    "object-assign": "^4.1.1",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
